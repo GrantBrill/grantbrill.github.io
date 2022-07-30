@@ -27,6 +27,7 @@
     /*This part is important for centering*/
     display: grid;
     place-items: center;
+
   }
   
 .typing-demo {
@@ -36,7 +37,7 @@
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 2em;
+    font-size: 5vh;
     color: white;
   }
   
@@ -65,27 +66,21 @@
   }
   
 .typing-demo2 {
-    width: 77ch;
-    animation-delay: 1.5s;
-    animation: typing 8s steps(77), blink .5s step-end infinite alternate;
+    width: 41ch;
+    animation: typing 4s steps(41);
     white-space: nowrap;
     overflow: hidden;
-    border-right: 3px solid;
     font-family: monospace;
-    font-size: 2em;
+    font-size: 2vh;
     color: white;
   }
   
-  @keyframes typing {
+  @keyframes typing2 {
     from {
-      width: 0
+      width: 0;
+      animation-delay: 5s;
     }
   }
       
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  }
 .masterwrapper{
 }
