@@ -29,6 +29,11 @@
     place-items: center;
 
   }
+.wrapper2{
+  width: 413.83px;
+  justify-content: center;
+   padding-left: 4.5vh;
+}
   
 .typing-demo {
     width: 13ch;
@@ -81,4 +86,41 @@
       animation-delay: 5s;
     }
   }
-      
+.SML{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 25px;
+  justify-content: center;
+  padding-top: 10px;
+  margin: 0%;
+}
+.instagram{
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.github{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.lastfm{
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.spotify{
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.youtube{
+  width: 20px;
+  height: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+}
