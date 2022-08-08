@@ -29,11 +29,6 @@
     place-items: center;
 
   }
-.wrapper2{
-  width: 413.83px;
-  justify-content: center;
-   padding-left: 4.5vh;
-}
   
 .typing-demo {
     width: 13ch;
@@ -68,18 +63,7 @@
     /*This part is important for centering*/
     display: grid;
     place-items: center;
-  }
-  
-.typing-demo2 {
-    width: 41ch;
-    animation: typing 4s steps(41);
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: monospace;
-    font-size: 2vh;
-    color: white;
-  }
-  
+  }  
   @keyframes typing2 {
     from {
       width: 0;
@@ -92,8 +76,9 @@
   width: 500px;
   height: 25px;
   justify-content: center;
-  padding-top: 10px;
-  margin: 0%;
+  justify: center;
+  bottom: 0;
+  position: fixed;
 }
 .instagram{
   width: 20px;
@@ -123,4 +108,16 @@
   height: 20px;
   padding-left: 10px;
   cursor: pointer;
+}
+
+.bottomtext{
+  color: white;
+  font-family: monospace;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify: center;
+  position: fixed;
+  padding-top: 91vh;
+  font-size: 13pt;
 }
